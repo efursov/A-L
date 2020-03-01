@@ -1,0 +1,155 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+.cards {
+  width: 600px;
+  height: 600px;
+  padding: 30px;
+  text-align: center;
+  background-color: #0d5825;
+  font-size: 25px;
+  color: white;
+  position: relative;
+}
+
+img {
+  width: 150px;
+}
+.images {
+  padding: 120px 30px;
+  position: relative;
+}
+.img1 {
+  transform: translate(100px, -10px) rotate(-20deg);
+}
+.img1:hover {
+  transform: translate(90px, -15px) rotate(-20deg);
+}
+.img2 {
+  transform: rotate(-8deg);
+}
+.img2:hover {
+  transform: translate(-10px, -25px) rotate(-8deg);
+}
+.img3 {
+  transform: translate(-100px, 20px) rotate(7deg);
+}
+.img3:hover {
+  transform: translate(-110px, 0px) rotate(7deg);
+}
+
+.wrapper {
+  margin: 7% 7%;
+  width: 300px;
+  height: 300px;
+  position: relative;
+  opacity: 50%;
+}
+
+.red {
+  width: 100px;
+  height: 100px;
+  background-color: #f43838;
+  position: absolute;
+  top: 33.33px;
+  left: 33.33px;
+}
+
+.blue {
+  width: 100px;
+  height: 100px;
+  background-color: #1b1bfc;
+  position: absolute;
+  top: 100px;
+  left: 100px;
+  z-index: 1;
+}
+
+.green {
+  width: 100px;
+  height: 100px;
+  background-color: #24fa24;
+  position: absolute;
+  top: 166.66px;
+  left: 166.66px;
+}
+.menu {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+}
+.list {
+  position: fixed;
+  padding: 70px;
+  width: 18%;
+  height: 100%;
+  text-decoration: none;
+  text-transform: uppercase;
+  background-color: gray;
+  transition: 0.5s;
+  transform: translateX(-100%);
+}
+.hidden {
+  position: fixed;
+  width: 50px;
+  height: 100%;
+  background-color: gray;
+  animation: linear;
+}
+.list a {
+  color: white;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 50px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+.hidden span {
+  width: 200px;
+  height: 200px;
+  color: white;
+  font-size: 24px;
+  line-height: 50px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+li {
+  position: relative;
+}
+li:before {
+  content: "";
+  width: 12px;
+  height: 12px;
+  display: inline-block;
+  background-color: #ff9016;
+  border: 3px solid black;
+  position: absolute;
+  left: -30px;
+  top: 20px;
+  transform: rotate(45deg);
+}
+.vertical_text {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 3px;
+  transform: translateY(35vh) rotate(-90deg);
+}
+.menu:hover > .hidden {
+  display: none;
+}
+.menu:hover > .list_active {
+  position: fixed;
+  padding: 70px;
+  width: 18%;
+  height: 100%;
+  text-decoration: none;
+  text-transform: uppercase;
+  background-color: gray;
+  transition: 0.5s;
+  transform: translateX(0%);
+}

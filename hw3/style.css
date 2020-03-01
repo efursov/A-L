@@ -1,0 +1,38 @@
+.wrapper {
+    max-width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+.container {
+    margin: 30px;
+}
+
+.block {
+    width: 350px;
+    height: 220px;
+    padding: 15px 10px 20px;
+    margin: 0 0 30px;
+    border: 2px dashed red;
+    background-color: green;
+}
+
+.left {
+    margin: 0 36px 36px 0;
+    float: left;
+}
+
+img {
+    width: 300px;
+    height: 170px;
+}
+
+.right {
+    margin: 36px 0 36px 36px;
+    float: right;
+}
+
+p {
+    font-size: 36px;
+    text-align: justify;
+}

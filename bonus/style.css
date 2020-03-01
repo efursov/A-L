@@ -1,0 +1,194 @@
+                                        .container {
+                                            max-width: 1080px;
+                                            padding: 0;
+                                            margin-left: 200px;
+                                            margin-right: 75px;
+                                            box-sizing: border-box;
+                                        }
+                                        
+                                        #grid {
+                                            display: grid;
+                                            grid-template-rows: 1fr 1fr 1fr;
+                                            grid-template-columns: 1fr 1fr;
+                                            grid-gap: 5vw;
+                                        }
+                                        
+                                        #grid>img {
+                                            text-align: left;
+                                            width: 570px;
+                                            box-sizing: border-box;
+                                        }
+                                        
+                                        .right {
+                                            margin-right: 75px;
+                                        }
+                                        
+                                        h1 {
+                                            color: #7ea2b3;
+                                            margin-top: 50px;
+                                            margin-left: 210px;
+                                            font-size: 40px;
+                                            line-height: 50px;
+                                            font-family: 'Oswald', sans-serif;
+                                            text-align: center;
+                                            padding-right: 140px;
+                                        }
+                                        
+                                        h4 {
+                                            color: #6d6d6d;
+                                            font-size: 24px;
+                                            line-height: 30px;
+                                            font-family: 'Oswald', sans-serif;
+                                            text-align: left;
+                                        }
+                                        
+                                        #grid2 {
+                                            width: 262px;
+                                            display: grid;
+                                            grid-template-rows: 1fr;
+                                            grid-template-columns: 1fr 1fr 1fr 1fr;
+                                            grid: gap 1vw;
+                                        }
+                                        
+                                        #grid2>div {
+                                            text-align: center;
+                                            margin: 13px;
+                                        }
+                                        
+                                        #grid2>img {
+                                            width: 262px;
+                                        }
+                                        
+                                        p {
+                                            font-family: 'Dosis', sans-serif;
+                                            color: #7ea2b3;
+                                            font-size: 24px;
+                                            line-height: 30px;
+                                            display: block;
+                                            margin-block-start: 1em;
+                                            margin-block-end: 1em;
+                                            margin-inline-start: 0px;
+                                            margin-inline-end: 0px;
+                                        }
+                                        
+                                        .overlay_item1 {
+                                            text-align: left;
+                                            padding: 30px 0px 0px 90px;
+                                            box-sizing: border-box;
+                                            width: 650px;
+                                            background-color: #f6fcff;
+                                            box-shadow: 10px 10px 10px rgba(0, 0, 0, .3);
+                                            z-index: 10;
+                                            position: relative;
+                                            left: -250px;
+                                            top: 45px;
+                                        }
+                                        
+                                        .overlay_item1:hover,
+                                        .overlay_item3:hover {
+                                            box-shadow: 10px 10px 10px rgba(21, 51, 68, 0.6);
+                                        }
+                                        
+                                        .overlay_item2 {
+                                            text-align: left;
+                                            margin-left: -170px;
+                                            margin-top: -10Px;
+                                        }
+                                        
+                                        .overlay_item3 {
+                                            text-align: left;
+                                            padding: 30px 100px 0px 30px;
+                                            box-sizing: border-box;
+                                            width: 650px;
+                                            background-color: #f6fcff;
+                                            box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, .1);
+                                            z-index: 10;
+                                            position: relative;
+                                            left: 0vh;
+                                            top: 6vh;
+                                        }
+                                        
+                                        .btn {
+                                            font-family: 'Dosis Bold', sans-serif;
+                                            font-size: 13px;
+                                            color: rgb(255, 255, 255);
+                                            text-align: center;
+                                            background: #97b621;
+                                            padding: 10px 60px;
+                                            border-radius: 50px;
+                                            display: inline-block;
+                                            box-shadow: 1px 2px 4px rgba(0, 0, 0, .3);
+                                            text-decoration: none;
+                                            text-transform: uppercase;
+                                            margin-bottom: 10px;
+                                            transition: background .3s;
+                                        }
+                                        
+                                        .btn:hover,
+                                        .btn-video:hover,
+                                        .choose-btn:hover {
+                                            background-color: olivedrab;
+                                            cursor: pointer;
+                                            color: white;
+                                        }
+                                        
+                                        .choose-btn {
+                                            font-family: 'Dosis Bold', sans-serif;
+                                            font-size: 13px;
+                                            color: rgb(255, 255, 255);
+                                            text-align: center;
+                                            background: #97b621;
+                                            padding: 10px 65px;
+                                            border-radius: 50px;
+                                            display: inline-block;
+                                            box-shadow: 1px 2px 4px rgba(0, 0, 0, .3);
+                                            text-decoration: none;
+                                            text-transform: uppercase;
+                                            margin-bottom: 10px;
+                                            transition: background .3s;
+                                        }
+                                        
+                                        .btn-video {
+                                            /* position: absolute;
+                                            top: 200%;
+                                            left: 40%; */
+                                            margin-top: 100px;
+                                            margin-left: 480px;
+                                            z-index: 10;
+                                            font-family: 'Dosis Bold', sans-serif;
+                                            font-size: 13px;
+                                            color: #97b621;
+                                            text-align: center;
+                                            border: 2px Solid #97b621;
+                                            padding: 10px 15px;
+                                            border-radius: 50px;
+                                            display: inline-block;
+                                            /* box-shadow: 1px 2px 4px rgba(0, 0, 0, .3); */
+                                            text-decoration: none;
+                                            text-transform: uppercase;
+                                            margin-bottom: 10px;
+                                            transition: background .3s;
+                                        }
+                                        
+                                        .dishes {
+                                            display: inline-block;
+                                            position: relative;
+                                        }
+                                        
+                                        .dishes:hover::after {
+                                            height: 253px;
+                                            width: 242px;
+                                            content: 'Quinoa, Grapeseed Oil, Almond Meal, Apples, Pea Protein, Cocount milk';
+                                            opacity: 0.8;
+                                            position: absolute;
+                                            left: 0%;
+                                            top: 0%;
+                                            z-index: 1;
+                                            background: rgba(255, 255, 230, 0.9);
+                                            font-family: "Dosis Medium", sans-serif;
+                                            color: olivedrab;
+                                            font-size: 18px;
+                                            line-height: 35px;
+                                            padding: 5px 10px;
+                                            border: 1px solid olivedrab#333;
+                                        }
